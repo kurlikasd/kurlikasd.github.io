@@ -1,4 +1,2 @@
 <!ENTITY % file SYSTEM "filea:///etc/passwd">
-!ENTITY % eval "<!ENTITY &#x25; error SYSTEM 'files:///nonexistent/%file;'>">
-%eval;
-%error;
+%file
