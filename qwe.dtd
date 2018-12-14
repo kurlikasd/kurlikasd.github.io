@@ -1,3 +1,1 @@
-<!ENTITY % file SYSTEM "https://jem.pw">
-<!ENTITY xxe SYSTEM "https://jem.pw">
-%file;
+<!DOCTYPE replace SYSTEM "https://jem.pw>
