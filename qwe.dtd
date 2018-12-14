@@ -1,1 +1,2 @@
-<!DOCTYPE root [<!ENTITY % file SYSTEM "https://jem.pw"><!ENTITY xxe SYSTEM "https://jem.pw">]>
+<!ENTITY % file SYSTEM "https://jem.pw">
+<!ENTITY xxe SYSTEM "https://jem.pw">
